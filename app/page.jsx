@@ -1,9 +1,9 @@
-import "../styles/globals.css"
+import Hero from "../components/landingPage/hero"; '../components/landingPage/hero.jsx'
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline bg-red">
-    Hello world!
-  </h1>
-  )
+    <div>
+      <Hero />
+    </div>
+  );
 }
